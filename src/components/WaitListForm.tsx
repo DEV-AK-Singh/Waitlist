@@ -42,27 +42,15 @@ export default function WaitlistForm() {
   }
 
   return (
-    <div className="w-full max-w-lg">
-      <div className="flex justify-center mb-8">
-        <img
-          src="/motesTextLogo.png"
-          alt="Motes Logo" 
-          className="w-60"
-        />
-      </div>
-
+    <div className="w-full max-w-lg">  
       {/* Header Section */}
       <div className="text-center mb-12 space-y-4">
         <h1
           className="text-4xl sm:text-6xl font-bold tracking-tight text-balance text-white"
           style={{ fontFamily: "var(--font-heading)" }}
         >
-          Whatsapp <span className="text-foreground">×</span> Notion
-        </h1>
-        <p className="text-lg text-muted-foreground text-balance leading-relaxed">[Motes]</p>
-        <p className="text-base text-muted-foreground text-balance leading-relaxed max-w-md mx-auto">
-          Turns your WhatsApp brain-dump into structured Notion knowledge.
-        </p>
+          Waitlist
+        </h1> 
       </div>
 
       {/* Form Section */}
